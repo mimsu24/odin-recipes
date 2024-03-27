@@ -1,0 +1,53 @@
+html * {
+    box-sizing: border-box;
+}
+
+.foodcontainer{
+    list-style: none;
+    padding: 0px 50px;
+    margin: 50px 500px;
+}
+
+.foodlist{
+    text-align: center;
+    background-color:rgb(150, 85, 0); 
+    border-radius: 30px; 
+    font-size: 30px;
+}
+
+.foodlist:hover{
+    background-color:rgb(189, 107, 0);  
+}
+
+.foodlist:active{
+    background-color:rgb(255, 145, 2);
+}
+
+.foodlink{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+#top-title{
+    font-family: "Times New Roman", serif;
+    font-size: 48px;
+    color: white;
+    background-color:rgb(95, 22, 22);
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px 40px;
+}
+
+.title,
+.text{
+    font-family: Georgia, serif;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
